@@ -1,0 +1,51 @@
+.agwho{
+   
+    width: 518px;
+    margin-left: 30%;
+    margin-top: 150px;
+    border-width: 1px;
+    border-style:dotted;
+}
+.whol{
+    margin-left: 150px;
+    padding: 20px;
+    width: 40%;
+    padding-bottom: 50px;
+  
+}
+.log{
+  margin-left: 50px;
+    font-size: larger;
+    margin-bottom: 30px;
+}
+.i1,.i2{
+    padding-bottom: 20px;
+}
+.b1{
+    padding-bottom: 5px;
+}
+.button{
+    padding: 7px;
+    margin-left: 132px;
+    text-align: center;
+    font-size: small;
+   background-color:  rgb(12, 156, 19);
+   color: rgb(255, 255, 255);
+   border: none;
+
+}
+.buttonC :hover{
+    cursor: pointer;
+    background-color: rgb(9, 128, 15);
+    color: #fff;
+}
+.add{
+    margin-left: 575px;
+    margin-top:33px;
+    font-size: smaller;
+}
+.redir{
+    margin-top: 10px;
+    font-size: smaller;
+
+}

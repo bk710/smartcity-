@@ -1,0 +1,49 @@
+.wholeReg{
+    border: 1in;
+    border-color: black;
+    width: 500px;
+    padding: 20px;
+    margin-left: 450px;
+    background: white;
+
+
+}
+.signcen{
+    text-align: center;
+    margin-right:55px;
+}
+.b1 input{
+  width: 400px;
+  padding-bottom: 10px;
+}
+.b1 ::placeholder{
+    font-size: small;
+   
+}
+
+.regDet form p b {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    color: rgb(0, 0, 0);
+}
+.submitF button{
+    margin-top: 10px;
+    border: none;
+    background-color: rgb(28, 119, 255);
+    width: 410px;
+    padding-bottom: 20px;
+}
+.subal{
+   margin-top: 10px;
+    color: black;
+}
+.routLo{
+    margin-top: 10px;
+    margin-left: 170px;
+}
+
+
+
+
+
+

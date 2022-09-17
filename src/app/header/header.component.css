@@ -1,0 +1,32 @@
+.hed{
+    background-color: rgb(241, 174, 4);
+
+}
+
+.ang{
+    width:55px;
+    
+}
+
+#heb{
+    list-style-type: none;
+    float: right;
+    margin-bottom: 100px;
+}
+#heb a:hover{
+    color: #fff;
+    background-color: rgba(238, 219, 46, 0.932);
+   
+}
+#heb li{
+    color: rgb(255, 255, 255);
+    display: inline-block;
+}
+#heb li a {
+    margin-bottom: 50px;
+    padding: 25px;
+    text-decoration: none;
+    text-shadow: 5px;
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

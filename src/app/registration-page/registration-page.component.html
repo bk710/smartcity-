@@ -1,0 +1,56 @@
+<div class="wholeD">
+    <div class="wholeReg">
+    <div class="signcen">
+        <h1>REGISTER HERE</h1>
+        <h4>signup</h4>
+    </div>
+    <div class="regDet" >
+      <form [formGroup]="registerForm">
+
+        <p><b>First Name</b></p>
+        <div class="b1"><input type="text" placeholder="enter your first name" formControlName="fN"></div>
+        <div *ngIf="!registerForm.controls.fN.valid && (registerForm.controls.fN.dirty || registerForm.controls.fN.touched)">
+          <span>  *First Name is required </span>
+        </div>
+
+        <p><b>Second Name</b></p>
+        <div class="b1"><input type="text" placeholder="enter your Second name" formControlName="sN"></div>
+        <div *ngIf="!registerForm.controls.sN.valid && (registerForm.controls.sN.dirty || registerForm.controls.sN.touched)">
+            <span> *Second Name is required </span>
+        </div>
+
+        <p><b>Email Address</b></p>
+        <div class="b1"><input type="email" placeholder="enter your E-mail address here" formControlName="eA"></div>
+        <div *ngIf="!registerForm.controls.eA.valid && (registerForm.controls.eA.dirty || registerForm.controls.eA.touched)">
+            <span>  *Email Address is required </span>
+        </div>
+
+        <p><b>User Name</b></p>
+        <div class="b1"><input type="text" placeholder="enter your UserName" formControlName="uN"></div>
+        <div *ngIf="!registerForm.controls.uN.valid && (registerForm.controls.uN.dirty || registerForm.controls.uN.touched)">
+            <span>  *User Name is required </span>
+        </div>
+
+        <p><b>Password</b></p>
+        <div class="b1"><input type="password" placeholder="enter password" formControlName="pD"></div>
+        <div *ngIf="!registerForm.controls.pD.valid && (registerForm.controls.pD.dirty || registerForm.controls.pD.touched)">
+            <span>  *Password should have atleast 1 uppercase 1 lowercase 1 number 1 special characters </span>
+        </div>
+
+        <p><b>Confirm Password</b></p>
+        <div class="b1"><input type="password" placeholder="confirm your password" formControlName="cpD"></div>
+        <div *ngIf="!registerForm.controls.cpD.valid && (registerForm.controls.cpD.dirty || registerForm.controls.cpD.touched)">
+            <span>  confirm your password </span>
+        </div>
+
+        <div class="submitF">
+            <button type="submit" [disabled]="!registerForm.valid"><div class="subal">Submit</div></button>
+        </div>
+       </form>
+
+       <div class="routLo">
+        <span>Already have an account <a routerLink="/loginPage">sign in</a> here</span>
+       </div>
+    </div>
+     </div>
+</div>
